@@ -1,4 +1,4 @@
-# hakrevdns
+# Improved version of Hakrevdns
 
 Small, fast, simple tool for performing reverse DNS lookups en masse.
 
@@ -9,7 +9,7 @@ This can be a useful way of finding domains and subdomains belonging to a compan
 ## Installation
 
 ```sh
-go get github.com/hakluke/hakrevdns
+go get github.com/hackerpain/hakrevdns
 ```
 
 ### Alternative Installation using automated install script (Linux)
@@ -48,7 +48,7 @@ hakluke~$ prips 173.0.84.0/24 | hakrevdns
 ### Parameters
 
 ```sh
-hakluke~$ hakrevdns -h
+hackerpain~$ hakrevdns -h
 Usage:
   hakrevdns [OPTIONS]
 
@@ -66,7 +66,7 @@ Help Options:
 If you want to use a resolver not specified by you OS, say: 1.1.1.1, try this:
 
 ```sh
-hakluke~$ echo "173.0.84.110" | hakrevdns -r 1.1.1.1
+hackerpain~$ echo "173.0.84.110" | hakrevdns -r 1.1.1.1
 173.0.84.110    he.paypal.com.
 ```
 
