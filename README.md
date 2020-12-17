@@ -1,4 +1,4 @@
-# Improved version of Hakrevdns
+# hakrevdns
 
 Small, fast, simple tool for performing reverse DNS lookups en masse.
 
