@@ -28,7 +28,7 @@ chmod +x install.sh
 The most basic usage is to simply pipe a list of IP addresses into the tool, for example:
 
 ```sh
-hakluke~$ prips 173.0.84.0/24 | hakrevdns 
+hackerpain~$ prips 173.0.84.0/24 | hakrevdns 
 173.0.84.110	he.paypal.com.
 173.0.84.109	twofasapi.paypal.com.
 173.0.84.114	www-carrier.paypal.com.
