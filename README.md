@@ -81,5 +81,6 @@ For filtering out only working domains, you may additionally pipe it through [ht
 $ echo "173.0.84.110" | hakrevdns -d | httprobe
 ```
 
-## Contributors
+## Fork maintained by
 - [SaveBreach](https://github.com/savebreach) cleaned up code and added ```-d``` option to only output domains
+- Created by Luke Stephens (hakluke)
