@@ -9,7 +9,7 @@ This can be a useful way of finding domains and subdomains belonging to a compan
 ## Installation
 
 ```sh
-go get github.com/hackerpain/hakrevdns
+go get github.com/savebreach/hakrevdns
 ```
 
 ### Alternative Installation using automated install script (Linux)
@@ -28,7 +28,7 @@ chmod +x install.sh
 The most basic usage is to simply pipe a list of IP addresses into the tool, for example:
 
 ```sh
-hackerpain~$ prips 173.0.84.0/24 | hakrevdns 
+savebreach~$ prips 173.0.84.0/24 | hakrevdns 
 173.0.84.110	he.paypal.com.
 173.0.84.109	twofasapi.paypal.com.
 173.0.84.114	www-carrier.paypal.com.
@@ -48,7 +48,7 @@ hackerpain~$ prips 173.0.84.0/24 | hakrevdns
 ### Parameters
 
 ```sh
-hackerpain~$ hakrevdns -h
+savebreach~$ hakrevdns -h
 Usage:
   hakrevdns [OPTIONS]
 
@@ -66,7 +66,7 @@ Help Options:
 If you want to use a resolver not specified by you OS, say: 1.1.1.1, try this:
 
 ```sh
-hackerpain~$ echo "173.0.84.110" | hakrevdns -r 1.1.1.1
+savebreach~$ echo "173.0.84.110" | hakrevdns -r 1.1.1.1
 173.0.84.110    he.paypal.com.
 ```
 
@@ -83,4 +83,6 @@ $ echo "173.0.84.110" | hakrevdns -d | httprobe
 
 ## Fork maintained by
 - [SaveBreach](https://github.com/savebreach) cleaned up code and added ```-d``` option to only output domains
-- Created by Luke Stephens (hakluke)
+
+## Created by 
+ - [Luke Stephens a.k.a hakluke](https://github.com/hakluke)
