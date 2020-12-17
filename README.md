@@ -82,5 +82,4 @@ $ echo "173.0.84.110" | hakrevdns -d | httprobe
 ```
 
 ## Contributors
-- [hakluke](https://twitter.com/hakluke) wrote the tool
-- [alphakilo](https://github.com/Alphakilo/) added the option to use custom resolvers
+- [SaveBreach](https://github.com/savebreach) cleaned up code and added ```-d``` option to only output domains
