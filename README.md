@@ -82,7 +82,7 @@ $ echo "173.0.84.110" | hakrevdns -d | httprobe
 ```
 
 ## Fork maintained by
-- [SaveBreach](https://github.com/savebreach) cleaned up code and added ```-d``` option to only output domains
+- [SaveBreach](https://www.savebreach.com) cleaned up code and added ```-d``` option to only output domains
 
 ## Created by 
  - [Luke Stephens a.k.a hakluke](https://github.com/hakluke)
